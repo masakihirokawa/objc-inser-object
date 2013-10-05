@@ -36,12 +36,12 @@
   NSLog(@"%@", myArray);
   
   //変更可能な順序付けされたセットを生成する
-  NSMutableArray *orderdSet;
-  orderdSet = [NSMutableOrderedSet orderedSetWithObject:@"Apple"];
+  NSMutableOrderedSet *orderedSet;
+  orderedSet = [NSMutableOrderedSet orderedSetWithObject:@"Apple"];
   //オブジェクトを挿入する
-  [orderdSet insertObject:@"Banana"
+  [orderedSet insertObject:@"Banana"
                   atIndex:0];
-  NSLog(@"%@", orderdSet);
+  NSLog(@"%@", orderedSet);
 }
 
 @end
